@@ -1,0 +1,53 @@
+@font-face {
+    font-family: ds_digital;
+    src: url(digital-7/digital-7.ttf);
+}
+@media (max-width:767px){
+    .logo{
+        width: 60px;
+        height:60px;
+    }
+    .mw-100{
+        width:100%;
+        margin:5px;
+    }
+    
+}
+@media (max-width:480px){
+    .myheading{
+        font-size: 18px;
+    }
+    .logo{
+        width: 60px;
+        height:60px;
+    }
+    .mw-100{
+        width:100%;
+        margin: 5px;
+    }
+}
+.digital-font{
+    font-family: ds_digital;
+    font-size: 30px;
+}
+.logo{
+    position: absolute;
+    margin:unset;
+    padding: 10px;
+    top:0%;
+    left:0%
+}
+.worldtime{
+    margin-top:"15";
+    width:"40vw";
+    justify-items: center;
+}
+
+.mycard{
+    font-size: large;
+    width: 100%;
+    padding: 2%;
+    box-shadow: 1px 2px 10px lightslategrey;
+    /* padding: 10px; */
+    /* background-color: steelblue; */
+}

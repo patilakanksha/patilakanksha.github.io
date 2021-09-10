@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- <link rel="stylesheet" href="bootstrap-5.1.1/dist/css/bootstrap.css">
+    <script src="bootstrap-5.1.1/dist/js/bootstrap.js"></script> -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="mystylesheet.css">
+    <title>Clock App</title>
+</head>
+
+<body>
+    <div class="p-5 mb-4 bg-light rounded-3">
+        <img class="logo" src="images/earth.png" width="120px" ; height="120px"><img>
+        <h1 class="heading1 text-dark text-center myheading">DIGITAl-WORLD-CLOCK</h1>
+    </div>
+    <div class="container">
+        <div class="p-5 mb-4 bg-light rounded-3">
+            <h2 class="dispaly-4">Current Time is <span id="time"></span></h2>
+            <p id="lead"></p>
+            <hr class="my-4">
+            <p>Other Country Time</p>
+            <div class="worldTime">
+                <p>
+                    <a class="btn btn-primary mw-100" onclick="myFunction('New-York')">New-York</a>
+                    <a class="btn btn-primary mw-100" onclick="myFunction('London')">London</a>
+                    <a class="btn btn-primary mw-100" onclick="myFunction('Australia')">Australia</a>
+                    <!-- <a class="btn btn-primary" onclick="myFunction('Maleshiya')">Maleshiya</a> -->
+                </p>
+                <div class="alert alert-dismissible fade out mycard" role="alert" id="divTest">
+                    <strong id="clock"></strong>
+                    <button type="button" onclick="myClose()" class="btn-close"></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+        integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js"
+        integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/"
+        crossorigin="anonymous"></script>
+    <script src="clock.js"></script>
+</body>
+
+</html>
